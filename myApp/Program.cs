@@ -10,8 +10,8 @@ namespace myApp
             var account = new BankAccount("Me", 1000);
             Summ(account);
 
-            Console.WriteLine(account.Balance);
             Console.WriteLine(account.GetAccountHistory());
+            Console.WriteLine($"Balance: {account.Balance}");
         }
 
         public static void Summ(BankAccount account)
